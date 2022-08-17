@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chat Poc</title>
+   
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link href="home.css" rel='stylesheet' type='text/css'>
+   
+</head>
+<body>
+
+    <nav class="navbar navbar-light navbar-expand-lg" style="margin-bottom:20px; background-image: linear-gradient(to right, gray,#2E8B57);">
+        <a class="navbar-brand" href="/" style="margin-left:10px;">
+            <img src="logo.png" style="width: 40px;" >
+        </a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/">Page A</a>
+            <a class="nav-item nav-link active" >Page B</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="row shadow bg-white "style="width:100%; margin:auto; padding-bottom:10px;">
+            <form method="post" action="/search" autocomplete="off">
+                <div class="row">
+                    <div class="col">
+                        <label for="DTN_ID" class="form-label">Id</label>
+                        <input type="text" class="form-control"  name="DTN_ID" {{#filter.id}} value="" >
+                    </div>
+                    
+                </div>
+                <div class="row" style="margin-top:10px;">
+                    <div class="col">
+                        <label for="DTN_DESTINATION" class="form-label">Destination</label>
+                        <input type="text" class="form-control" name="DTN_DESTINATION" {{#filter.destination}} value="" }>
+                    </div>
+                
+                </div>
+                <div class="row" style="margin-top:15px;">
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-dark my-btn" >Pesquisar</button>
+                        <a href="/" type="button" class="btn btn-dark my-btn" style="margin-left:10px;">Limpar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+     
+
+           
+        </div>
+            <div class="row shadow bg-white rounded my-table">
+                  
+            </div>
+        </div>
+    </div>
+
+          
+    
+   
+</body>
+</html>

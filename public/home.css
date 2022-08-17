@@ -1,0 +1,53 @@
+/* Css Geral */
+
+div.dt-buttons{
+    position:relative;
+    float:right;
+    }
+
+.my-btn{
+    background-color:#808080;
+}
+
+a{
+    cursor: pointer;
+}
+
+a.navbar-nav{ 
+    font-family: Times New Roman, Times, serif;
+    font-size: 5000px !important;
+}
+
+label{
+    font-family:Georgia;
+}
+
+.my-table{
+    border-style: outset; 
+    border-width: 0.5px; 
+    width:100%; 
+    margin:auto; 
+    margin-top:30px; 
+    padding-bottom:10px; 
+    padding-top:10px;
+}
+
+/* Css dos avisos */
+.my-mesage{
+    display: block; 
+    position: fixed; 
+    top: 0; 
+    left: 78%; 
+    right: 20%;  
+    width: 20%; 
+    padding-top: 10px; 
+    z-index: 9999
+}
+
+.my-alert{
+    margin: 0 auto; 
+    box-shadow: 1px 1px 5px black;
+    
+    
+}
+
