@@ -9,7 +9,7 @@ const io = socketIO(server);
 
 
 
-server.listen(3000);
+server.listen(80);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.set( __dirname + '/views');
